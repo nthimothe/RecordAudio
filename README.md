@@ -24,29 +24,29 @@ Check out the screenshots to see what the process typically looks like and guide
 
 ## Screenshots
 
-![Program Start](https://github.com/nthimothe/RecordAuido/blob/master/RecordAudio/Screenshots/programStart.png)
+![Program Start](https://github.com/nthimothe/RecordAudio/blob/master/Screenshots/programStart.png)
 
 Navigate to your Dropbox on your mobile device and find the file initiate.txt, it should look lke this once you tap it.
 
-![Initiate.txt](https://github.com/nthimothe/RecordAudio/blob/master/RecordAudio/Screenshots/initiateInDropbox.JPG)
+![Initiate.txt](https://github.com/nthimothe/RecordAudio/blob/master/Screenshots/initiateInDropbox.JPG)
 
 Navigate to Pretext and create a text with the name and send it to your laptop.
 
-![Start File](https://github.com/nthimothe/RecordAudio/blob/master/RecordAudio/Screenshots/pretextStart.PNG)
+![Start File](https://github.com/nthimothe/RecordAudio/blob/master/Screenshots/pretext.JPG)
 
 Your Terminal Window should then look like...
 
-![Recording Start](https://github.com/nthimothe/RecordAudio/blob/master/RecordAudio/Screenshots/startRecording.png)
+![Recording Start](https://github.com/nthimothe/RecordAudio/blob/master/Screenshots/startRecording.png)
 
 which indicates that it has begun recording.
 
 To end recording, navigate back to Pretext and send stopRec.txt to your laptop at which point your Terminal should look like
 
-![Terminal Stop](https://github.com/nthimothe/RecordAudio/blob/master/RecordAudio/Screenshots/terminalStop.png)
+![Terminal Stop](https://github.com/nthimothe/RecordAudio/blob/master/Screenshots/terminalStop.png)
 
 The recording should appear in your Dropbox...
 
-![Rec In Dropbox](https://github.com/nthimothe/RecordAudio/blob/master/RecordAudio/Screenshots/recordingPresent.jpeg)
+![Rec In Dropbox](https://github.com/nthimothe/RecordAudio/blob/master/Screenshots/recordingPresent.jpeg)
 
 
 

@@ -1,6 +1,6 @@
 # Record Audio
 
-Seamlessly begin recording from your laptop as long as you have an internet connection.
+Seamlessly begin recording from your laptop from any smart device as long as you have an internet connection.
 
 ## Running The Program
 
@@ -15,7 +15,7 @@ Seamlessly begin recording from your laptop as long as you have an internet conn
 * Execute startRec.sh with the following command `./startRec.sh`
 * Navigate to your Dropbox on another device and there should be a file named "initiate.txt" with a unique string inside and the date and time corresponding to the most recent execution of the script.  Copy the unique text that follows the "The filename needs to be" and navigate to Pretext on your device. 
 * Create a .txt file that has the unique string as its name (e.g. dc73496645248a219cd0a19d329d1394581d5e6625d24818dc7000fe820198899367624f3f6e8b675aa4749ead509056b0179936ec28fc2b0ceadb33d63076e3.txt). 
-* AirDrop that text file to your laptop or place it in your Dropbox (NOT in a subdirectory! i.e. /Users/USER/Dropbox).
+* AirDrop that text file to your laptop or add it in your Dropbox (NOT in a subdirectory! i.e. /Users/USER/Dropbox).
 * Your laptop will begin the process of recording until it receieves a file named "stopRec.txt" either via AirDrop or Dropbox addition (again, not in a subdirectory).
 * The recording will save to your dropbox in a directory named "Recordings". You can record from your laptop without interacting with your computer at all! 
 * If you plan on using the program often, consider adding it to your list of jobs so that it runs on a regular basis!
@@ -24,29 +24,29 @@ Check out the screenshots to see what the process typically looks like and guide
 
 ## Screenshots
 
-![Program Start](https://github.com/nthimothe/Projects/blob/master/RecordAudio/Screenshots/programStart.png)
+![Program Start](https://github.com/nthimothe/RecordAudio/blob/master/Screenshots/programStart.png)
 
 Navigate to your Dropbox on your mobile device and find the file initiate.txt, it should look lke this once you tap it.
 
-![Initiate.txt](https://github.com/nthimothe/Projects/blob/master/RecordAudio/Screenshots/initiateInDropbox.JPG)
+![Initiate.txt](https://github.com/nthimothe/RecordAudio/blob/master/Screenshots/initiateInDropbox.JPG)
 
 Navigate to Pretext and create a text with the name and send it to your laptop.
 
-![Start File](https://github.com/nthimothe/Projects/blob/master/RecordAudio/Screenshots/pretextStart.PNG)
+![Start File](https://github.com/nthimothe/RecordAudio/blob/master/Screenshots/pretext.JPG)
 
 Your Terminal Window should then look like...
 
-![Recording Start](https://github.com/nthimothe/Projects/blob/master/RecordAudio/Screenshots/startRecording.png)
+![Recording Start](https://github.com/nthimothe/RecordAudio/blob/master/Screenshots/startRecording.png)
 
 which indicates that it has begun recording.
 
 To end recording, navigate back to Pretext and send stopRec.txt to your laptop at which point your Terminal should look like
 
-![Terminal Stop](https://github.com/nthimothe/Projects/blob/master/RecordAudio/Screenshots/terminalStop.png)
+![Terminal Stop](https://github.com/nthimothe/RecordAudio/blob/master/Screenshots/terminalStop.png)
 
 The recording should appear in your Dropbox...
 
-![Rec In Dropbox](https://github.com/nthimothe/Projects/blob/master/RecordAudio/Screenshots/recordingPresent.jpeg)
+![Rec In Dropbox](https://github.com/nthimothe/RecordAudio/blob/master/Screenshots/recordingPresent.jpeg)
 
 
 
